@@ -1,0 +1,358 @@
+@CHARSET "ISO-8859-1";
+
+.forgot-password-form, .signup-callout {
+	background: #28282b none repeat scroll 0 0;
+	display: block;
+	margin: 0 0 20px;
+	overflow: hidden;
+	padding: 20px;
+	position: relative;
+}
+
+.forgot-password-form p, .signup-callout p, .forgot-password-form li,
+	.signup-callout li, .forgot-password-form .post-content,
+	.signup-callout .post-content {
+	color: #999;
+}
+
+.forgot-password-form .post-content, .signup-callout .post-content {
+	margin: 0 0 1em;
+}
+
+.forgot-password-form:not (.single-collection ) >h1, .signup-callout:not
+	(.single-collection ) >h1, .forgot-password-form:not (.single-collection
+	) >h2, .signup-callout:not (.single-collection ) >h2,
+	.forgot-password-form:not (.single-collection ) >h3, .signup-callout:not
+	(.single-collection ) >h3, .forgot-password-form:not (.single-collection
+	) >h4, .signup-callout:not (.single-collection ) >h4,
+	.forgot-password-form:not (.single-post ) >h1, .signup-callout:not (.single-post
+	) >h1, .forgot-password-form:not (.single-post ) >h2, .signup-callout:not
+	(.single-post ) >h2, .forgot-password-form:not (.single-post ) >h3,
+	.signup-callout:not (.single-post ) >h3, .forgot-password-form:not (.single-post
+	) >h4, .signup-callout:not (.single-post ) >h4 {
+	border-bottom: 3px solid rgba(255, 255, 255, 0.1);
+	padding-bottom: 10px;
+	position: relative;
+}
+
+.error .forgot-password-form, .error .signup-callout {
+	background: rgba(0, 0, 0, 0.8) none repeat scroll 0 0;
+}
+
+.forgot-password-form .module, .signup-callout .module {
+	background: #1e1e1e none repeat scroll 0 0;
+}
+
+.login-wrap {
+	margin: 0 auto;
+	max-width: 600px;
+	padding: 20px 20px 150px;
+	position: relative;
+}
+
+.github-button-wrap {
+	position: absolute;
+	right: 20px;
+	top: 160px;
+}
+
+@media ( max-width : 550px) {
+	.github-button-wrap {
+		bottom: 60px;
+		left: 20px;
+		right: auto;
+		top: auto;
+	}
+}
+
+.login-form .field {
+	padding-right: 0;
+}
+
+.forgot-password-form {
+	display: none;
+	margin-top: 40px;
+	padding: 20px 20px 0;
+}
+
+.forgot-password-form>h3 {
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+	font-size: 1.75rem;
+	padding-bottom: 5px;
+}
+
+.forgot-password-form>#sent-message {
+	padding-bottom: 20px;
+}
+
+.signup-callout {
+	margin-top: 40px;
+	text-align: center;
+}
+
+body, html {
+	overflow-x: hidden;
+	width: 100%;
+}
+
+.form-wrap {
+	border-top: 10px solid #555;
+	margin: 0 auto;
+	max-width: 660px;
+	min-width: 320px;
+	padding: 0 10px 100px;
+}
+
+.form-wrap.super {
+	border-top-color: #ae63e4;
+}
+
+.form-wrap.pro {
+	border-top-color: #0ebeff;
+}
+
+.form-wrap.team-5, .form-wrap.team-10, .form-wrap.team-15, .form-wrap.team-20,
+	.form-wrap.team-25 {
+	border-top-color: #47cf73;
+}
+
+.signup-header {
+	margin: 20px 0;
+	position: relative;
+}
+
+@media ( max-width : 550px) {
+	.signup-header h2 {
+		font-size: 4.8em;
+	}
+}
+
+.signup-header .github-button-wrap {
+	top: 120px;
+}
+
+@media ( max-width : 590px) {
+	.signup-header .github-button-wrap {
+		margin: 30px 0 0;
+		position: static;
+	}
+	.signup-header .github-button-wrap .github-button {
+		width: 100%;
+	}
+}
+
+.note-error {
+	background: rgba(255, 0, 0, 0.8) none repeat scroll 0 0;
+}
+
+.form-meta {
+	position: absolute;
+	top: 0;
+	width: 150px;
+}
+
+.fields-signup .form-meta {
+	right: 110%;
+}
+
+.fields-payment .form-meta {
+	left: 110%;
+}
+
+.form-meta h3 {
+	font-size: 1.1rem;
+}
+
+.super .form-meta h3 {
+	color: #ae63e4;
+}
+
+.pro .form-meta h3 {
+	color: #0ebeff;
+}
+
+.team-5 .form-meta h3, .team-10 .form-meta h3, .team-15 .form-meta h3,
+	.team-20 .form-meta h3, .team-25 .form-meta h3 {
+	color: #47cf73;
+}
+
+.form-meta p {
+	font-weight: 100;
+}
+
+.form-meta h4 {
+	color: white;
+	font-size: 1.1rem;
+	margin: 0;
+	text-transform: none;
+}
+
+.form-meta .badge {
+	font-weight: 700;
+	top: -1px;
+}
+
+@media ( max-width : 1080px) {
+	.form-meta {
+		display: none;
+	}
+}
+
+.fields-payment .form-meta {
+	top: -270px;
+}
+
+.field-group {
+	border: 0 none;
+	padding: 0;
+	position: relative;
+}
+
+.field-monthly-or-yearly {
+	border-radius: 4px;
+	margin: 0 0 30px;
+	padding: 10px 20px;
+}
+
+.super .field-monthly-or-yearly {
+	background: #9738dc none repeat scroll 0 0;
+}
+
+.pro .field-monthly-or-yearly {
+	background: #009fda none repeat scroll 0 0;
+}
+
+.team-5 .field-monthly-or-yearly, .team-10 .field-monthly-or-yearly,
+	.team-15 .field-monthly-or-yearly, .team-20 .field-monthly-or-yearly,
+	.team-25 .field-monthly-or-yearly {
+	background: #2fb45a none repeat scroll 0 0;
+}
+
+.field {
+	margin: 0 0 20px;
+	padding-right: 20px;
+}
+
+.field small {
+	font-weight: 100;
+}
+
+.field-half {
+	float: left;
+	width: 50%;
+}
+
+.field-one-third {
+	float: left;
+}
+
+.field-one-fifth {
+	float: left;
+	width: 20%;
+}
+
+.field-two-fifths {
+	float: left;
+	width: 40%;
+}
+
+.field-three-fifths {
+	float: left;
+	width: 60%;
+}
+
+.field-two-thirds {
+	float: right;
+	width: 66.66%;
+}
+
+.price-choice-half {
+	float: left;
+	width: 49%;
+}
+
+.field-credit-card-number {
+	clear: both;
+}
+
+.signup-form {
+	clear: both;
+}
+
+.signup-form label:not (.small-inline ), .login-form label:not (.small-inline
+	) {
+	display: block;
+	font-size: 1.1rem;
+	margin: 0 0 2px;
+}
+
+@media ( max-width : 550px) {
+	.signup-form label:not (.small-inline ), .login-form label:not (.small-inline
+		) {
+		font-size: 0.7rem;
+	}
+}
+
+.signup-form input[type="text"], .signup-form input[type="email"],
+	.signup-form input[type="password"], .signup-form textarea, .login-form input[type="text"],
+	.login-form input[type="email"], .login-form input[type="password"],
+	.login-form textarea {
+	font-family: "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma,
+		sans-serif;
+	font-size: 1.3rem;
+	width: 100%;
+}
+
+@media ( max-width : 550px) {
+	.signup-form input[type="text"], .signup-form input[type="email"],
+		.signup-form input[type="password"], .signup-form textarea,
+		.login-form input[type="text"], .login-form input[type="email"],
+		.login-form input[type="password"], .login-form textarea {
+		font-size: 1rem;
+	}
+}
+
+.signup-form select, .login-form select {
+	-moz-appearance: none;
+	background: #fff
+		url("https://assets.codepen.io/assets/buttons/down-arrow.png")
+		no-repeat scroll right -3px;
+	border: 0 none;
+	border-radius: 0;
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3) inset, 0 10px 25px
+		rgba(0, 0, 0, 0.1) inset;
+	font-size: 1.3rem;
+	padding: 4px 30px 4px 5px;
+	position: relative;
+	text-indent: 0.01px;
+	text-overflow: "";
+	top: -1px;
+}
+
+.radio-group label {
+	display: inline;
+}
+
+.radio-group * {
+	vertical-align: middle;
+}
+
+.push {
+	margin: 0 0 40px;
+}
+
+@media ( max-width : 550px) {
+	.header-cancel h2 {
+		font-size: 2.1rem;
+	}
+}
+
+.upgrading-to-team-module>h4 {
+	color: #fcd000;
+	font-size: 1.4rem;
+	text-transform: none;
+}
+
+.upgrading-to-team-module ul {
+	margin: 0;
+}

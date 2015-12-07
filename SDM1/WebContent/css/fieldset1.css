@@ -1,0 +1,18 @@
+@CHARSET "ISO-8859-1";
+fieldset {
+   
+    border: 2px solid #BF0300;
+    background:#E0FFFF;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+fieldset legend {
+    background:;
+    color:Red;
+    padding: 4px 8px ;
+    font-size: 16px;
+    border-radius: 2px;
+    box-shadow: 0 0 0 2px #d4c37b;
+    margin-left: 30px;
+}

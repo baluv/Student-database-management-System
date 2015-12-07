@@ -1,0 +1,222 @@
+
+body{
+  background-color: ;
+
+}
+#register{
+	
+  width: 810px;
+  padding: 4px 6px;
+  position: relative;
+  background-color: #bf9543;
+  margin: 0 auto;
+  -webkit-transition: all 2s ease-in;
+  -moz-transition: all 2s ease-in;
+  -ms-transition: all 2s ease-in;
+  -o-transition: all 2s ease-in;
+  transition: all 2s ease-in;
+  margin: 10px 10px 10px 35px;
+}
+#registerme{
+  display: none;
+  width: 810px;
+  padding: 4px 6px;
+  position: relative;
+  background-color:#bf9543;
+  margin: 0 auto;
+  -webkit-transform: rotateY(90deg);
+  -moz-transform: rotateY(90deg);
+  -ms-transform: rotateY(90deg);
+  -o-transform: rotateY(90deg);
+  -webkit-transition: all 2s ease-in;
+  -moz-transition: all 2s ease-in;
+  -ms-transition: all 2s ease-in;
+  -o-transition: all 2s ease-in;
+  margin: 10px 10px 10px 35px;
+  
+}
+#firsttriangle{
+  position:absolute;
+  borde-top: 10px solid black;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid transparent;
+  border-right: 10px solid #932518;
+  left: -10px;
+  bottom: -16px;
+}
+#thirdtriangle{
+  position:absolute;
+  borde-top: 32px solid black;
+  border-bottom: 32px solid transparent;
+  border-left: 32px solid transparent;
+  border-right: 32px solid #BF0300;
+  left: -54px;
+  z-index: -1;
+  bottom: -10px;
+}
+#fourdtriangle{
+  position:absolute;
+  borde-top: 32px solid black;
+  border-bottom: 32px solid transparent;
+  border-left: 32px solid transparent;
+  border-right: 32px solid #BF0300;
+  left: -38px;
+  z-index: -1;
+  bottom: 0px;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+#fifthtriangle{
+  position:absolute;
+  borde-top: 32px solid black;
+  border-bottom: 32px solid transparent;
+  border-left: 32px solid #BF0300;
+  border-right: 32px solid transparent;
+  right: -54px;
+  z-index: -1;
+  top: 4px;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+}
+#sixtriangle{
+  position:absolute;
+  borde-top: 32px solid black;
+  border-bottom: 32px solid transparent;
+  border-left: 32px solid #BF0300;
+  border-right: 32px solid transparent;
+  right: -38px;
+  z-index: -1;
+  top: -4px;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  
+}
+#secondtriangle{
+  position:absolute;
+  borde-top: 10px solid black;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid #932518;
+  border-right: 10px solid transparent;
+  right: -10px;
+  bottom: -16px;
+}
+#lazo{
+  color: #fff;
+  width: 842px;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+  background-color: #BF0300;
+  position: absolute;
+  top: 0;
+  font-size: 15px;
+  left: -10px;
+  text-align: center;
+
+}
+#forum{
+  padding: 10px;
+  padding-top: 40px;
+  font-size: 15px;
+}
+.padding{
+  padding: 5px 0px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  border-top: 2px dashed #bf9543;
+  border-bottom: 2px dashed #bf9543;
+  position:relative;
+}
+.input{
+
+  padding: 6px 7px;
+  width: 180px;
+  box-shadow: 2px 2px 3px rgba(0,0,0,.1) inset;
+  border: 1px solid black;
+}
+.inputt{
+
+  padding: 6px 7px;
+  width: 195px;
+  box-shadow: 2px 2px 3px rgba(0,0,0,.1) inset;
+  border: 1px solid black;
+}
+.input:focus{
+  outline: none;
+}
+#createAccount{
+  padding: 6px 7px;
+  width: 50%;
+  margin-top: 5px;
+  border: 1px solid #d4c37b;
+  background: Green;
+  background-image: -webkit-linear-gradient(top,Green,Green); 
+  color: Black;
+  font-size: 12px;
+  font-family: verdana;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+  cursor: pointer;
+  
+}
+#createAccount1{
+  padding: 6px 7px;
+  width: 10%;
+ 
+  margin-top: 5px;
+  border: 1px solid #d4c37b;
+  background: Green; 
+  background-image: -webkit-linear-gradient(top,Green,Green); 
+  color: Black;
+  font-size: 12px;
+  font-family: verdana;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+  cursor: pointer;
+  
+}
+
+.search{
+  padding: 6px 7px;
+  width: 20%;
+  margin-top: 5px;
+  border: 1px solid #d4c37b;
+  background: Green; 
+  color: Black;
+  font-size: 12px;
+  font-family: verdana;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+  cursor: pointer;
+  
+}
+
+.reset{
+  padding: 6px 7px;
+  width: 45%;
+  margin-top: 5px;
+  border: 1px solid #d4c37b;
+  background: Green;
+  background-image: -webkit-linear-gradient(top,Green,Green);  
+  color: Black;
+  font-size: 12px;
+  font-family: verdana;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
